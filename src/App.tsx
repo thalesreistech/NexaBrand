@@ -111,7 +111,7 @@ const LOGO_ASSETS = [
     id: 'logo_horiz_light_transp',
     name: 'Logo Horizontal - Light (Transparente)',
     category: 'core',
-    path: '/assets/core/nexa_logo_horizontal_dark_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_horizontal_dark_transp.svg`,
     desc: 'Versão principal para telas claras (Fundo Claro). O símbolo possui degradê neon e o texto é escuro.',
     type: 'Horizontal',
     bgPreference: 'dark'
@@ -120,7 +120,7 @@ const LOGO_ASSETS = [
     id: 'logo_horiz_dark_transp',
     name: 'Logo Horizontal - Dark (Transparente)',
     category: 'core',
-    path: '/assets/core/nexa_logo_horizontal_light_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_horizontal_light_transp.svg`,
     desc: 'Versão principal para telas escuras (Fundo Escuro). O símbolo possui degradê neon e o texto é branco.',
     type: 'Horizontal',
     bgPreference: 'light'
@@ -129,7 +129,7 @@ const LOGO_ASSETS = [
     id: 'logo_vert_light_transp',
     name: 'Logo Vertical - Light (Transparente)',
     category: 'core',
-    path: '/assets/core/nexa_logo_vertical_dark_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_vertical_dark_transp.svg`,
     desc: 'Versão empilhada para fundos claros. Ideal para documentos impressos simplificados ou menus claros.',
     type: 'Vertical',
     bgPreference: 'dark'
@@ -138,7 +138,7 @@ const LOGO_ASSETS = [
     id: 'logo_vert_dark_transp',
     name: 'Logo Vertical - Dark (Transparente)',
     category: 'core',
-    path: '/assets/core/nexa_logo_vertical_light_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_vertical_light_transp.svg`,
     desc: 'Versão empilhada para fundos escuros. Ideal para espaços verticais ou cabeçalhos centralizados.',
     type: 'Vertical',
     bgPreference: 'light'
@@ -147,7 +147,7 @@ const LOGO_ASSETS = [
     id: 'isomark_light_transp',
     name: 'Isomark (Ícone N) - Light',
     category: 'core',
-    path: '/assets/core/nexa_isomark_dark_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_isomark_dark_transp.svg`,
     desc: 'Símbolo isolado com degradê neon. Usado para avatares e marcas d\'água em fundos claros.',
     type: 'Símbolo',
     bgPreference: 'dark'
@@ -156,7 +156,7 @@ const LOGO_ASSETS = [
     id: 'isomark_dark_transp',
     name: 'Isomark (Ícone N) - Dark',
     category: 'core',
-    path: '/assets/core/nexa_isomark_light_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`,
     desc: 'O símbolo isolado da marca com degradê neon. Usado para avatares, favicons e elementos de apoio em fundos escuros.',
     type: 'Símbolo',
     bgPreference: 'light'
@@ -165,7 +165,7 @@ const LOGO_ASSETS = [
     id: 'wordmark_light_transp',
     name: 'Wordmark - Light',
     category: 'core',
-    path: '/assets/core/nexa_wordmark_dark_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_wordmark_dark_transp.svg`,
     desc: 'Apenas a escrita geométrica "NEXA" na cor escura. Usada para rodapés claros ou correspondências.',
     type: 'Apenas Texto',
     bgPreference: 'dark'
@@ -174,7 +174,7 @@ const LOGO_ASSETS = [
     id: 'wordmark_dark_transp',
     name: 'Wordmark - Dark',
     category: 'core',
-    path: '/assets/core/nexa_wordmark_light_transp.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_wordmark_light_transp.svg`,
     desc: 'Apenas a escrita geométrica "NEXA" na cor branca. Utilizada quando o símbolo já está presente em outra parte.',
     type: 'Apenas Texto',
     bgPreference: 'light'
@@ -185,7 +185,7 @@ const LOGO_ASSETS = [
     id: 'logo_horiz_light_solid',
     name: 'Logo Horizontal - Light (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_logo_horizontal_dark_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_horizontal_dark_solid.svg`,
     desc: 'Versão horizontal com fundo claro sólido oficial (#FFFFFF) incorporado para garantir as proporções de contraste.',
     type: 'Horizontal',
     bgPreference: 'dark'
@@ -194,7 +194,7 @@ const LOGO_ASSETS = [
     id: 'logo_horiz_dark_solid',
     name: 'Logo Horizontal - Dark (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_logo_horizontal_light_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_horizontal_light_solid.svg`,
     desc: 'Versão horizontal com fundo escuro sólido oficial (#0B0D17) incorporado para garantir as proporções de contraste.',
     type: 'Horizontal',
     bgPreference: 'light'
@@ -203,7 +203,7 @@ const LOGO_ASSETS = [
     id: 'logo_vert_light_solid',
     name: 'Logo Vertical - Light (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_logo_vertical_dark_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_vertical_dark_solid.svg`,
     desc: 'Versão vertical empilhada com fundo claro sólido oficial (#FFFFFF) incorporado.',
     type: 'Vertical',
     bgPreference: 'dark'
@@ -212,7 +212,7 @@ const LOGO_ASSETS = [
     id: 'logo_vert_dark_solid',
     name: 'Logo Vertical - Dark (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_logo_vertical_light_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_logo_vertical_light_solid.svg`,
     desc: 'Versão vertical empilhada com fundo escuro sólido oficial (#0B0D17) incorporado.',
     type: 'Vertical',
     bgPreference: 'light'
@@ -221,7 +221,7 @@ const LOGO_ASSETS = [
     id: 'isomark_light_solid',
     name: 'Isomark - Light (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_isomark_dark_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_isomark_dark_solid.svg`,
     desc: 'Símbolo isolado com fundo claro sólido oficial (#FFFFFF).',
     type: 'Símbolo',
     bgPreference: 'dark'
@@ -230,7 +230,7 @@ const LOGO_ASSETS = [
     id: 'isomark_dark_solid',
     name: 'Isomark - Dark (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_isomark_light_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_solid.svg`,
     desc: 'Símbolo isolado com fundo escuro sólido oficial (#0B0D17).',
     type: 'Símbolo',
     bgPreference: 'light'
@@ -239,7 +239,7 @@ const LOGO_ASSETS = [
     id: 'wordmark_light_solid',
     name: 'Wordmark - Light (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_wordmark_dark_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_wordmark_dark_solid.svg`,
     desc: 'Escrita "NEXA" com fundo claro sólido oficial (#FFFFFF).',
     type: 'Apenas Texto',
     bgPreference: 'dark'
@@ -248,7 +248,7 @@ const LOGO_ASSETS = [
     id: 'wordmark_dark_solid',
     name: 'Wordmark - Dark (Sólido)',
     category: 'core',
-    path: '/assets/core/nexa_wordmark_light_solid.svg',
+    path: `${import.meta.env.BASE_URL}assets/core/nexa_wordmark_light_solid.svg`,
     desc: 'Escrita "NEXA" com fundo escuro sólido oficial (#0B0D17).',
     type: 'Apenas Texto',
     bgPreference: 'light'
@@ -259,7 +259,7 @@ const LOGO_ASSETS = [
     id: 'cnc_horiz_flat_black',
     name: 'Logo Horizontal Monocromático - Black',
     category: 'cnc',
-    path: '/assets/cnc/nexa_logo_horizontal_flat_black.svg',
+    path: `${import.meta.env.BASE_URL}assets/cnc/nexa_logo_horizontal_flat_black.svg`,
     desc: 'Logo horizontal plano totalmente preto. Indicado para corte a laser (CNC), carimbos ou impressões xerox.',
     type: 'Monocromático',
     bgPreference: 'light'
@@ -268,7 +268,7 @@ const LOGO_ASSETS = [
     id: 'cnc_horiz_flat_white',
     name: 'Logo Horizontal Monocromático - White',
     category: 'cnc',
-    path: '/assets/cnc/nexa_logo_horizontal_flat_white.svg',
+    path: `${import.meta.env.BASE_URL}assets/cnc/nexa_logo_horizontal_flat_white.svg`,
     desc: 'Logo horizontal plano totalmente branco. Indicado para gravação a laser sobre materiais escuros, bordados ou carimbos.',
     type: 'Monocromático',
     bgPreference: 'dark'
@@ -277,7 +277,7 @@ const LOGO_ASSETS = [
     id: 'cnc_isomark_flat_black',
     name: 'Isomark Monocromático - Black',
     category: 'cnc',
-    path: '/assets/cnc/nexa_isomark_flat_black.svg',
+    path: `${import.meta.env.BASE_URL}assets/cnc/nexa_isomark_flat_black.svg`,
     desc: 'O símbolo "N" plano em preto puro. Para aplicações físicas em baixo contraste.',
     type: 'Monocromático',
     bgPreference: 'light'
@@ -286,7 +286,7 @@ const LOGO_ASSETS = [
     id: 'cnc_isomark_flat_white',
     name: 'Isomark Monocromático - White',
     category: 'cnc',
-    path: '/assets/cnc/nexa_isomark_flat_white.svg',
+    path: `${import.meta.env.BASE_URL}assets/cnc/nexa_isomark_flat_white.svg`,
     desc: 'O símbolo "N" plano em branco puro. Para gravações físicas em superfícies escuras.',
     type: 'Monocromático',
     bgPreference: 'dark'
@@ -297,7 +297,7 @@ const LOGO_ASSETS = [
     id: 'print_logo_horiz',
     name: 'Logo Horizontal - CMYK',
     category: 'print',
-    path: '/assets/print/nexa_logo_horizontal_cmyk.svg',
+    path: `${import.meta.env.BASE_URL}assets/print/nexa_logo_horizontal_cmyk.svg`,
     desc: 'Logo horizontal ajustado com as especificações de cores ideais para impressoras industriais (Gráficas).',
     type: 'CMYK',
     bgPreference: 'light'
@@ -306,7 +306,7 @@ const LOGO_ASSETS = [
     id: 'print_logo_vert',
     name: 'Logo Vertical - CMYK',
     category: 'print',
-    path: '/assets/print/nexa_logo_vertical_cmyk.svg',
+    path: `${import.meta.env.BASE_URL}assets/print/nexa_logo_vertical_cmyk.svg`,
     desc: 'Logo vertical empilhado com cores CMYK calibradas para fidelidade em papel e mídias físicas.',
     type: 'CMYK',
     bgPreference: 'light'
@@ -315,7 +315,7 @@ const LOGO_ASSETS = [
     id: 'print_wordmark',
     name: 'Wordmark - CMYK',
     category: 'print',
-    path: '/assets/print/nexa_wordmark_cmyk.svg',
+    path: `${import.meta.env.BASE_URL}assets/print/nexa_wordmark_cmyk.svg`,
     desc: 'Apenas a escrita "NEXA" com cores CMYK ideais para materiais impressos.',
     type: 'CMYK',
     bgPreference: 'light'
@@ -324,7 +324,7 @@ const LOGO_ASSETS = [
     id: 'print_isomark',
     name: 'Isomark - CMYK',
     category: 'print',
-    path: '/assets/print/nexa_isomark_cmyk.svg',
+    path: `${import.meta.env.BASE_URL}assets/print/nexa_isomark_cmyk.svg`,
     desc: 'O símbolo isolado com cores otimizadas para garantir a fidelidade do degradê no papel e tecidos.',
     type: 'CMYK',
     bgPreference: 'light'
@@ -335,7 +335,7 @@ const LOGO_ASSETS = [
     id: 'web_favicon_svg',
     name: 'Favicon do Site (Vetor)',
     category: 'web',
-    path: '/assets/web/favicon.svg',
+    path: `${import.meta.env.BASE_URL}assets/web/favicon.svg`,
     desc: 'Ícone vetorial de alta performance que aparece na aba do navegador. Altamente leve.',
     type: 'Favicon',
     bgPreference: 'dark'
@@ -345,7 +345,7 @@ const LOGO_ASSETS = [
     id: 'web_apple_touch_svg',
     name: 'Apple Touch Icon (Vetor)',
     category: 'web',
-    path: '/assets/web/apple_touch_icon.svg',
+    path: `${import.meta.env.BASE_URL}assets/web/apple_touch_icon.svg`,
     desc: 'Ícone de alta qualidade para atalhos em dispositivos iOS (iPhones/iPads).',
     type: 'Apple Touch',
     bgPreference: 'dark'
@@ -355,7 +355,7 @@ const LOGO_ASSETS = [
     id: 'web_og_image_svg',
     name: 'OpenGraph Capa (Vetor)',
     category: 'web',
-    path: '/assets/web/og_image_thumbnail.svg',
+    path: `${import.meta.env.BASE_URL}assets/web/og_image_thumbnail.svg`,
     desc: 'Versão vetorial para geração dinâmica de capas e compartilhamento em redes sociais.',
     type: 'OpenGraph',
     bgPreference: 'dark'
@@ -365,7 +365,7 @@ const LOGO_ASSETS = [
     id: 'splash_logo',
     name: 'Splash Screen Logo (Vetor)',
     category: 'web',
-    path: '/assets/splash/splash-logo.svg',
+    path: `${import.meta.env.BASE_URL}assets/splash/splash-logo.svg`,
     desc: 'Logo central de inicialização para aplicativos mobile, PWAs ou sistemas de desktop.',
     type: 'Splash Screen',
     bgPreference: 'dark'
@@ -922,7 +922,7 @@ ${aiMarkdownText}`;
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl bg-[#121625] border border-white/10 flex items-center justify-center shadow-lg shadow-purple-500/5 shrink-0 p-1.5 bg-gradient-to-br from-[#121625] to-[#0B0E14] hover:border-purple-500/40 transition-all duration-300">
               <img 
-                src="/assets/core/nexa_isomark_light_transp.svg" 
+                src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" 
                 alt="NEXA Isomark" 
                 className="w-full h-full object-contain pointer-events-none"
                 referrerPolicy="no-referrer"
@@ -1864,7 +1864,7 @@ ${aiMarkdownText}`;
                       <div className="flex items-center gap-2">
                         <div className="w-7 h-7 rounded-full p-0.5 bg-gradient-to-tr from-[#0070F3] to-[#8B5CF6] flex items-center justify-center">
                           <div className="w-full h-full rounded-full bg-[#0b0e14] flex items-center justify-center overflow-hidden">
-                            <img src="/assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-[75%] h-[75%] object-contain" referrerPolicy="no-referrer" />
+                            <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-[75%] h-[75%] object-contain" referrerPolicy="no-referrer" />
                           </div>
                         </div>
                         <span className="text-[11px] font-bold text-white tracking-tight">nexa_industrial</span>
@@ -2132,7 +2132,7 @@ ${aiMarkdownText}`;
                     <div className="p-3.5 bg-[#0F121D] flex flex-col gap-3">
                       <div className="flex items-center gap-3">
                         <div className="w-11 h-11 rounded-full bg-black/60 border-2 border-[#0A0D14] -mt-7 flex items-center justify-center overflow-hidden shadow-lg shrink-0">
-                          <img src="/assets/core/nexa_isomark_light_transp.svg" alt="Nexa Profile" className="w-[80%] h-[80%] object-contain" referrerPolicy="no-referrer" />
+                          <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Profile" className="w-[80%] h-[80%] object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <div className="min-w-0 flex-1">
                           <p className="text-xs font-bold text-white truncate">Nexa Industrial</p>
@@ -2198,7 +2198,7 @@ ${aiMarkdownText}`;
                     <div className="p-3.5 bg-[#0F121D] flex items-center justify-between gap-4">
                       <div className="flex items-center gap-2.5">
                         <div className="w-8 h-8 rounded-full bg-red-600/20 border border-white/10 flex items-center justify-center overflow-hidden shrink-0">
-                          <img src="/assets/core/nexa_isomark_light_transp.svg" alt="Nexa Youtube Avatar" className="w-[70%] h-[70%] object-contain" referrerPolicy="no-referrer" />
+                          <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Youtube Avatar" className="w-[70%] h-[70%] object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <div>
                           <p className="text-xs font-bold text-white">Nexa Tech Corp</p>
@@ -2274,7 +2274,7 @@ ${aiMarkdownText}`;
                           {/* Profile Avatar Frame */}
                           <div className="relative w-8 h-8 mb-1.5">
                             <div className="w-full h-full rounded-full border border-white bg-black p-0.5">
-                              <img src="/assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+                              <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                             </div>
                             <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 bg-red-500 rounded-full w-3.5 h-3.5 flex items-center justify-center text-[8px] font-bold text-white border border-[#05070a]">
                               +
@@ -2841,7 +2841,7 @@ ${aiMarkdownText}`;
           <div className="flex justify-center items-center gap-2">
             <div className="w-5 h-5 flex items-center justify-center">
               <img 
-                src="/assets/core/nexa_isomark_light_transp.svg" 
+                src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" 
                 alt="NEXA" 
                 className="w-full h-full object-contain pointer-events-none"
                 referrerPolicy="no-referrer"

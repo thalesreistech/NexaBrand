@@ -39,36 +39,36 @@ Sempre que a IA ou um desenvolvedor for inserir imagens do logotipo em códigos 
 Esta pasta contém os arquivos ideais para exibição em sites, aplicativos, apresentações de slides e telas em geral.
 
 *   **Fundo Escuro (Dark Mode):**
-    *   Logo Horizontal Completo: `/core/nexa_logo_horizontal_light_transp.svg` (Texto branco, fundo transparente).
-    *   Logo Vertical: `/core/nexa_logo_vertical_light_transp.svg` (Texto branco, empilhado, transparente).
-    *   Apenas Símbolo (N): `/core/nexa_isomark_light_transp.svg` (Transparente).
-    *   Apenas Texto: `/core/nexa_wordmark_light_transp.svg` (Texto branco).
+    *   Logo Horizontal Completo: `/core/nexa_logo_horizontal_light_transp.svg`, (Texto branco, fundo transparente).
+    *   Logo Vertical: `/core/nexa_logo_vertical_light_transp.svg`, (Texto branco, empilhado, transparente).
+    *   Apenas Símbolo (N): `/core/nexa_isomark_light_transp.svg`, (Transparente).
+    *   Apenas Texto: `/core/nexa_wordmark_light_transp.svg`, (Texto branco).
 *   **Fundo Claro (Light Mode):**
-    *   Logo Horizontal Completo: `/core/nexa_logo_horizontal_dark_transp.svg` (Texto escuro, fundo transparente).
-    *   Logo Vertical: `/core/nexa_logo_vertical_dark_transp.svg` (Texto escuro, empilhado, transparente).
-    *   Apenas Símbolo (N): `/core/nexa_isomark_dark_transp.svg` (Transparente).
-    *   Apenas Texto: `/core/nexa_wordmark_dark_transp.svg` (Texto escuro).
+    *   Logo Horizontal Completo: `/core/nexa_logo_horizontal_dark_transp.svg`, (Texto escuro, fundo transparente).
+    *   Logo Vertical: `/core/nexa_logo_vertical_dark_transp.svg`, (Texto escuro, empilhado, transparente).
+    *   Apenas Símbolo (N): `/core/nexa_isomark_dark_transp.svg`, (Transparente).
+    *   Apenas Texto: `/core/nexa_wordmark_dark_transp.svg`, (Texto escuro).
 
 ### B. Uso Web, SEO e Ícones (Pasta `/web`)
 Arquivos otimizados para navegadores e carregamento rápido de imagem de cabeçalho ou pré-visualização.
 
-*   **Favicon (Ícone do Navegador):** `/web/favicon.svg` ou `/web/favicon.png`
-*   **Ícone para Apple (Touch Icon):** `/web/apple-touch-icon.png` ou `/web/apple_touch_icon.svg`
-*   **Imagem de Compartilhamento (Redes Sociais / WhatsApp / SEO):** `/web/og_image_thumbnail.png` ou `/web/og_image_thumbnail.svg`
+*   **Favicon (Ícone do Navegador):** `/web/favicon.svg`, ou `/web/favicon.png`
+*   **Ícone para Apple (Touch Icon):** `/web/apple-touch-icon.png` ou `/web/apple_touch_icon.svg`,
+*   **Imagem de Compartilhamento (Redes Sociais / WhatsApp / SEO):** `/web/og_image_thumbnail.png` ou `/web/og_image_thumbnail.svg`,
 
 ### C. Aplicações Físicas, Corte e Silhuetas (Pasta `/cnc`)
 Versões totalmente planas, sem degradê ou detalhes de sombreamento. Ideal para corte a laser, bordados, impressão monocromática ou carimbos.
 
-*   **Silhueta Preta (Para fundos claros):** `/cnc/nexa_logo_horizontal_flat_black.svg`
-*   **Silhueta Branca (Para fundos escuros):** `/cnc/nexa_logo_horizontal_flat_white.svg`
-*   **Símbolo Plano Preto:** `/cnc/nexa_isomark_flat_black.svg`
-*   **Símbolo Plano Branco:** `/cnc/nexa_isomark_flat_white.svg`
+*   **Silhueta Preta (Para fundos claros):** `/cnc/nexa_logo_horizontal_flat_black.svg`,
+*   **Silhueta Branca (Para fundos escuros):** `/cnc/nexa_logo_horizontal_flat_white.svg`,
+*   **Símbolo Plano Preto:** `/cnc/nexa_isomark_flat_black.svg`,
+*   **Símbolo Plano Branco:** `/cnc/nexa_isomark_flat_white.svg`,
 
 ### D. Materiais Gráficos / Impressos (Pasta `/print`)
 Arquivos configurados no espaço de cores correto para gráficas convencionais (representação vetorial CMYK). Use para panfletos, cartões de visita, banners e camisas.
 
-*   **Logo Horizontal:** `/print/nexa_logo_horizontal_cmyk.svg`
-*   **Símbolo CMYK:** `/print/nexa_isomark_cmyk.svg`
+*   **Logo Horizontal:** `/print/nexa_logo_horizontal_cmyk.svg`,
+*   **Símbolo CMYK:** `/print/nexa_isomark_cmyk.svg`,
 
 ---
 
