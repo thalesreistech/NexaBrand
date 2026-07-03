@@ -922,7 +922,7 @@ ${aiMarkdownText}`;
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl bg-[#121625] border border-white/10 flex items-center justify-center shadow-lg shadow-purple-500/5 shrink-0 p-1.5 bg-gradient-to-br from-[#121625] to-[#0B0E14] hover:border-purple-500/40 transition-all duration-300">
               <img 
-                src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" 
+                src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} 
                 alt="NEXA Isomark" 
                 className="w-full h-full object-contain pointer-events-none"
                 referrerPolicy="no-referrer"
@@ -1864,7 +1864,7 @@ ${aiMarkdownText}`;
                       <div className="flex items-center gap-2">
                         <div className="w-7 h-7 rounded-full p-0.5 bg-gradient-to-tr from-[#0070F3] to-[#8B5CF6] flex items-center justify-center">
                           <div className="w-full h-full rounded-full bg-[#0b0e14] flex items-center justify-center overflow-hidden">
-                            <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-[75%] h-[75%] object-contain" referrerPolicy="no-referrer" />
+                            <img src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} alt="Nexa Avatar" className="w-[75%] h-[75%] object-contain" referrerPolicy="no-referrer" />
                           </div>
                         </div>
                         <span className="text-[11px] font-bold text-white tracking-tight">nexa_industrial</span>
@@ -2132,7 +2132,7 @@ ${aiMarkdownText}`;
                     <div className="p-3.5 bg-[#0F121D] flex flex-col gap-3">
                       <div className="flex items-center gap-3">
                         <div className="w-11 h-11 rounded-full bg-black/60 border-2 border-[#0A0D14] -mt-7 flex items-center justify-center overflow-hidden shadow-lg shrink-0">
-                          <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Profile" className="w-[80%] h-[80%] object-contain" referrerPolicy="no-referrer" />
+                          <img src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} alt="Nexa Profile" className="w-[80%] h-[80%] object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <div className="min-w-0 flex-1">
                           <p className="text-xs font-bold text-white truncate">Nexa Industrial</p>
@@ -2198,7 +2198,7 @@ ${aiMarkdownText}`;
                     <div className="p-3.5 bg-[#0F121D] flex items-center justify-between gap-4">
                       <div className="flex items-center gap-2.5">
                         <div className="w-8 h-8 rounded-full bg-red-600/20 border border-white/10 flex items-center justify-center overflow-hidden shrink-0">
-                          <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Youtube Avatar" className="w-[70%] h-[70%] object-contain" referrerPolicy="no-referrer" />
+                          <img src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} alt="Nexa Youtube Avatar" className="w-[70%] h-[70%] object-contain" referrerPolicy="no-referrer" />
                         </div>
                         <div>
                           <p className="text-xs font-bold text-white">Nexa Tech Corp</p>
@@ -2274,7 +2274,7 @@ ${aiMarkdownText}`;
                           {/* Profile Avatar Frame */}
                           <div className="relative w-8 h-8 mb-1.5">
                             <div className="w-full h-full rounded-full border border-white bg-black p-0.5">
-                              <img src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" alt="Nexa Avatar" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+                              <img src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} alt="Nexa Avatar" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
                             </div>
                             <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 bg-red-500 rounded-full w-3.5 h-3.5 flex items-center justify-center text-[8px] font-bold text-white border border-[#05070a]">
                               +
@@ -2841,7 +2841,7 @@ ${aiMarkdownText}`;
           <div className="flex justify-center items-center gap-2">
             <div className="w-5 h-5 flex items-center justify-center">
               <img 
-                src="`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg" 
+                src={`${import.meta.env.BASE_URL}assets/core/nexa_isomark_light_transp.svg`} 
                 alt="NEXA" 
                 className="w-full h-full object-contain pointer-events-none"
                 referrerPolicy="no-referrer"
