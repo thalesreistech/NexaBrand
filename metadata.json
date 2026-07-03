@@ -1,0 +1,8 @@
+{
+  "name": "Nexa Brand Kit",
+  "description": "Página oficial do Brand Kit e identidade visual da Nexa para profissionais de marketing e guias de treinamento para Inteligência Artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

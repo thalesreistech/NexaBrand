@@ -1,0 +1,30 @@
+<!-- Arquivo: apple_touch_icon.svg | Função: Ícone PWA (Escala "Hero" maximizada e centralizada) -->
+<svg viewBox="0 0 512 512" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#0B0D17" rx="115" />
+    <defs>
+        <linearGradient id="neonGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f02bd4" /> 
+            <stop offset="50%" stop-color="#8b5cf6" /> 
+            <stop offset="100%" stop-color="#00d4ff" /> 
+        </linearGradient>
+        <linearGradient id="borderGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ffb3f3" /> 
+            <stop offset="50%" stop-color="#cfaeff" /> 
+            <stop offset="100%" stop-color="#a8e5ff" /> 
+        </linearGradient>
+        <filter id="trueGlow" x="-50%" y="-50%" width="300%" height="300%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="25" result="glow1" />
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="glow2" />
+            <feMerge result="glow_merged"><feMergeNode in="glow1" /><feMergeNode in="glow2" /></feMerge>
+            <feMerge><feMergeNode in="glow_merged" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+    </defs>
+    
+    <!-- Escala aumentada em 44% e reposicionada exatamente no centro do canvas de 512 -->
+    <g transform="translate(-62, -62) scale(1.28)">
+        <g filter="url(#trueGlow)">
+            <path d="M 160 360 L 160 140 L 340 360 L 340 225 M 340 139 L 340 141" fill="none" stroke="url(#borderGrad)" stroke-width="70" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M 160 360 L 160 140 L 340 360 L 340 225 M 340 139 L 340 141" fill="none" stroke="url(#neonGrad)" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+    </g>
+</svg>
