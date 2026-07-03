@@ -912,8 +912,8 @@ ${aiMarkdownText}`;
       <canvas ref={canvasRef} className="hidden" />
 
       {/* Top cosmic ambient light gradients */}
-      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-purple-600/10 rounded-full blur-[130px] pointer-events-none animate-pulse duration-10000" />
-      <div className="absolute top-40 right-1/4 w-[600px] h-[600px] bg-cyan-600/5 rounded-full blur-[130px] pointer-events-none animate-pulse duration-7000" />
+      <div className="absolute top-0 left-1/4  w-150h-150 bg-purple-600/10 rounded-full blur-[130px] pointer-events-none animate-pulse duration-10000" />
+      <div className="absolute top-40 right-1/4 w-150 h-150 bg-cyan-600/5 rounded-full blur-[130px] pointer-events-none animate-pulse duration-7000" />
       <div className="absolute top-[30%] left-10 w-[400px] h-[400px] bg-pink-600/3 rounded-full blur-[110px] pointer-events-none" />
 
       {/* Top Banner / Header */}
